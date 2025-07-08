@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>InOutDataSolutions | Soluciones Avanzadas de Inteligencia de Datos</title>
+    <meta name="description" content="Transformamos datos en decisiones estratégicas con soluciones de Business Intelligence, automatización y análisis predictivo.">
+    <meta name="keywords" content="business intelligence, power bi, tableau, análisis de datos, automatización, dashboards, Bolivia">
+    <meta name="author" content="InOutDataSolutions">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Profesional -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/Logo_InOUT8.png" alt="InOutDataSolutions">
+            </div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li><a class="nav-link" href="#proceso">Metodología</a></li>
+                    <li><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li><a class="nav-cta" href="https://wa.me/59170874000" target="_blank">Consultoría</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transformación Digital <span>Basada en Datos</span></h1>
+                <p class="hero-subtitle">Soluciones avanzadas de análisis y visualización para la toma de decisiones estratégicas</p>
+                <div class="hero-cta">
+                    <a class="btn btn-primary" href="#contacto">
+                        <i class="fas fa-rocket"></i> Iniciar Proyecto
+                    </a>
+                    <a class="btn btn-secondary" href="#servicios">
+                        <i class="fas fa-chart-bar"></i> Ver Soluciones
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="chart-container">
+                        <canvas id="heroChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section class="section" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">SOLUCIONES</span>
+                <h2 class="section-title">Servicios de Inteligencia de Datos</h2>
+                <p class="section-description">Tecnología avanzada para transformar tus datos en ventajas competitivas</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Dashboards Interactivos</h3>
+                    <p>Visualización en tiempo real de tus KPIs más importantes con tecnología Power BI, Looker Studio y Tableau.</p>
+                    <a class="service-link" href="#casos-uso-lookerstudio">Ver casos de uso <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automatización de Procesos</h3>
+                    <p>Flujos de trabajo automatizados que reducen errores y aumentan la productividad.</p>
+                    <a class="service-link" href="#automatizacion">Explorar soluciones <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Análisis Predictivo</h3>
+                    <p>Modelos avanzados de machine learning para anticipar tendencias y comportamientos.</p>
+                    <a class="service-link" href="#analisis-predictivo-detalle">Conocer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proceso -->
+    <section class="section bg-dark" id="proceso">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">METODOLOGÍA</span>
+                <h2 class="section-title">Nuestro Enfoque</h2>
+                <p class="section-description">Proceso estructurado para garantizar resultados tangibles</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Diagnóstico Integral</h3>
+                    <p>Evaluación detallada de tus procesos y fuentes de datos actuales.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Diseño de Solución</h3>
+                    <p>Arquitectura técnica y plan de implementación personalizado.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Desarrollo Ágil</h3>
+                    <p>Construcción iterativa con entregables parciales y feedback constante.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Implementación</h3>
+                    <p>Despliegue controlado con capacitación a tu equipo.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <h3>Optimización Continua</h3>
+                    <p>Monitoreo y mejora permanente de la solución.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nuestra Experiencia -->
+    <section class="section bg-dark" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">EQUIPO</span>
+                <h2 class="section-title">Nuestra Experiencia</h2>
+                <p class="section-description">Profesionales certificados con amplia experiencia en transformación digital</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Certificaciones</h3>
+                    <p>Equipo certificado en Power BI, Tableau, Google Data Studio y tecnologías de análisis.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>+10 Sectores</h3>
+                    <p>Hemos trabajado con retail, banca, salud, educación, manufactura y más.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>+50 Proyectos</h3>
+                    <p>Implementaciones exitosas de soluciones de datos en toda la región.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Metodología Probada</h3>
+                    <p>Enfoque ágil que garantiza resultados en cada etapa del proyecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Casos de Uso -->
+    <section class="section" id="casos-uso-lookerstudio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Casos de uso: Dashboards Interactivos</h2>
+                <p class="section-description">Visualizaciones inspiradas en Looker Studio</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <img alt="Serie temporal" src="images/icon-serie.png">
+                    <h3>Serie temporal</h3>
+                    <p>Comparación de datos en el tiempo para detectar tendencias y estacionalidades.</p>
+                </div>
+                <div class="card">
+                    <img alt="Distribución" src="images/icon-barra.png">
+                    <h3>Distribución</h3>
+                    <p>Frecuencia de categorías para análisis comparativo o ranking.</p>
+                </div>
+                <div class="card">
+                    <img alt="Comparativo" src="images/icon-pie.png">
+                    <h3>Comparativo</h3>
+                    <p>Comparación proporcional de partes en relación al total.</p>
+                </div>
+                <div class="card">
+                    <img alt="Visual exploratorio" src="images/icon-bubble.png">
+                    <h3>Visual exploratorio</h3>
+                    <p>Relación entre variables con vistas rápidas tipo dispersión.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Automatización -->
+    <section class="section" id="automatizacion">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Automatización de Procesos</h2>
+                <p class="section-description">Soluciones que optimizan tareas repetitivas, flujos internos y reportes clave</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <img alt="Integración de sistemas" src="images/icon-auto-integracion.png">
+                    <h3>Integración de Sistemas</h3>
+                    <p>Conectamos herramientas como CRM, ERP y formularios web para automatizar tareas.</p>
+                </div>
+                <div class="card">
+                    <img alt="Notificaciones Automáticas" src="images/icon-auto-notificacion.png">
+                    <h3>Notificaciones Automáticas</h3>
+                    <p>Alertas por correo, WhatsApp o dashboards cuando ocurren eventos clave.</p>
+                </div>
+                <div class="card">
+                    <img alt="Flujos de Aprobación" src="images/icon-auto-aprobacion.png">
+                    <h3>Flujos de Aprobación</h3>
+                    <p>Validaciones y decisiones internas automatizadas en procesos de negocio.</p>
+                </div>
+                <div class="card">
+                    <img alt="Reportes Programados" src="images/icon-auto-reporte.png">
+                    <h3>Reportes Programados</h3>
+                    <p>Envío recurrente de informes personalizados a tus equipos o clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Análisis Predictivo (Nueva) -->
+    <section class="section bg-light" id="analisis-predictivo-detalle">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">INTELIGENCIA ARTIFICIAL</span>
+                <h2 class="section-title">Análisis Predictivo</h2>
+                <p class="section-description">Anticipamos el futuro de tu negocio con modelos de Machine Learning</p>
+            </div>
+
+            <div class="predictive-grid">
+                <!-- Tarjeta 1 -->
+                <div class="predictive-card">
+                    <div class="predictive-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Modelos Personalizados</h3>
+                    <p>Desarrollamos algoritmos a medida para tu industria, entrenados con tus datos históricos.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Regresión lineal multivariable</li>
+                        <li><i class="fas fa-check-circle"></i> Redes neuronales profundas</li>
+                        <li><i class="fas fa-check-circle"></i> Algoritmos de clasificación</li>
+                    </ul>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="predictive-card">
+                    <div class="predictive-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Pronósticos Precise</h3>
+                    <p>Sistemas que aprenden continuamente para mejorar su precisión.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Forecast de ventas</li>
+                        <li><i class="fas fa-check-circle"></i> Detección de fraude</li>
+                        <li><i class="fas fa-check-circle"></i> Optimización de inventario</li>
+                    </ul>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="predictive-card">
+                    <div class="predictive-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Implementación</h3>
+                    <p>Integración perfecta con tus sistemas existentes.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> API REST personalizada</li>
+                        <li><i class="fas fa-check-circle"></i> Actualizaciones automáticas</li>
+                        <li><i class="fas fa-check-circle"></i> Dashboard de monitoreo</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Casos de Éxito -->
+            <div class="case-studies">
+                <h3 class="case-title">Casos de Éxito</h3>
+                <div class="case-grid">
+                    <div class="case-card">
+                        <div class="case-header" style="background-color: #4361ee;">
+                            <i class="fas fa-store"></i>
+                            <h4>Retail</h4>
+                        </div>
+                        <div class="case-body">
+                            <p>Reducción del 30% en inventario muerto mediante predicción de demanda.</p>
+                            <span class="case-result">+25% ROI</span>
+                        </div>
+                    </div>
+                    <div class="case-card">
+                        <div class="case-header" style="background-color: #06d6a0;">
+                            <i class="fas fa-piggy-bank"></i>
+                            <h4>Banca</h4>
+                        </div>
+                        <div class="case-body">
+                            <p>Detección de fraude con 98% de precisión usando redes neuronales.</p>
+                            <span class="case-result">-45% pérdidas</span>
+                        </div>
+                    </div>
+                    <div class="case-card">
+                        <div class="case-header" style="background-color: #7209b7;">
+                            <i class="fas fa-heartbeat"></i>
+                            <h4>Salud</h4>
+                        </div>
+                        <div class="case-body">
+                            <p>Predicción de readmisiones hospitalarias con 89% de acierto.</p>
+                            <span class="case-result">-60% costos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Específico -->
+            <div class="predictive-cta">
+                <div class="cta-content">
+                    <h3>¿Listo para anticiparte al futuro?</h3>
+                    <p>Solicita una demostración personalizada de nuestro sistema predictivo.</p>
+                </div>
+                <a href="#contacto" class="btn btn-primary btn-large">
+                    <i class="fas fa-calendar-check"></i> Agendar Demostración
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/Logo_InOUT8.png" alt="InOutDataSolutions">
+                    </div>
+                    <p class="footer-description">Transformamos datos en decisiones estratégicas para tu negocio.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Soluciones</h3>
+                    <ul>
+                        <li><a href="#servicios">Business Intelligence</a></li>
+                        <li><a href="#automatizacion">Automatización</a></li>
+                        <li><a href="#analisis-predictivo-detalle">Análisis Predictivo</a></li>
+                        <li><a href="#casos-uso-lookerstudio">Visualización de Datos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@inoutdatasolutions.com</li>
+                        <li><i class="fas fa-phone"></i> +591 70874000</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Cochabamba, Bolivia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 InOutDataSolutions. Todos los derechos reservados.</p>
+                <div class="legal-links">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp flotante -->
+    <a class="whatsapp-float" href="https://wa.me/59170874000" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
